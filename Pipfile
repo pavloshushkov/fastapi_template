@@ -1,0 +1,21 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+alembic = "*"
+sqlalchemy = {extras = ["asyncio"], version = "<1.5.0"}
+pyjwt = "*"
+uvicorn = {extras = ["standard"],version = ">=0.11.7"}
+fastapi = ">=0.62.0"
+gunicorn = "*"
+pythondi = "*"
+ujson = "*"
+click = "*"
+asyncpg = "==0.24.0"
+
+[requires]
+python_version = "3.8"
